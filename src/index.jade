@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+	head
+		title !
+		include ./jade/main/head.jade
+		
+	body
+		.container-fluid
+			// HEADER
+			include ./jade/main/header.jade
+		
+		
+		.products
+			include ./jade/main/products.jade
+			
+		.container-fluid.visible-md.visible-lg
+			.row
+				.col-xs-12
+					include ./jade/partial/carousel.jade
